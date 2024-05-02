@@ -47,7 +47,7 @@ def get_data_from_table(row: int, table) -> dict:
 	return data
 
 
-tables = camelot.read_pdf('file_2.pdf')
+tables = camelot.read_pdf('file.pdf')
 table = tables[0]
 
 group_number = len(table.cells) - 4
